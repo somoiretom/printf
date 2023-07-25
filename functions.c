@@ -69,7 +69,7 @@ return (write(1, str, length));
 /************************* PRINT PERCENT SIGN *************************/
 /**
  * print_percent - Prints a percent sign
- * @types: Lista of arguments
+ * @types: List of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width: get width.
@@ -88,10 +88,10 @@ UNUSED(precision);
 UNUSED(size);
 return (write(1, "%%", 1));
 }
-/************************* PRINT INT *************************/
+/*** PRINT INT ***/
 /**
  * print_int - Print int
- * @types: Lista of arguments
+ * @types: List of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width: get width.
@@ -124,10 +124,10 @@ num /= 10;
 i++;
 return (write_number(is_negative, i, buffer, flags, width, precision, size));
 }
-/************************* PRINT BINARY *************************/
+/*** PRINT BINARY ***/
 /**
  * print_binary - Prints an unsigned number
- * @types: Lista of arguments
+ * @types: List of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width: get width.

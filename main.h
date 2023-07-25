@@ -40,7 +40,7 @@
 
 /**
  * struct fmt - Struct op
- *
+ * By Somoire and Phathu
  * @fmt: The format.
  * @fn: The function associated.
  */
@@ -77,7 +77,7 @@ va_list list, char buffer[], int flags, int width, int precision, int size);
 
 
 
-/****************** FUNCTIONS ******************/
+
 
 
 
@@ -95,7 +95,7 @@ int print_percent(va_list types, char buffer[],
 
 int flags, int width, int precision, int size);
 
-
+/** FUNCTIONS **/
 
 /* Functions to print numbers */
 
@@ -203,7 +203,7 @@ int flags, int width, int precision, int size);
 
 
 
-/****************** UTILS ******************/
+/**** UTILITIES ****/
 
 int is_printable(char);
 
@@ -219,4 +219,4 @@ long int convert_size_unsgnd(unsigned long int num, int size);
 
 
 
-#endif /* MAIN_H */
+#endif
